@@ -1,6 +1,9 @@
 # World of Warcraft - Gameplay Features
 
-World of Warcraft core gameplay features written in C# using the Unity game engine &amp; FishNet networking library.
+World of Warcraft core gameplay features written in C# using the Unity game engine &amp; FishNet networking library. Clean and performant code written for dedicated server & p2p structure using the Observer pattern.
+
+* Unity 2022.3.14f1
+* FishNet 4.1.6
 
 ## Action System
 Networked action system with cooldowns and damage/healing abilities.
@@ -17,7 +20,3 @@ Scalable interaction system for creating new interactions (clicking on an object
 ## Inventory System
 A simple networked inventory system allowing giving and taking scriptable object items with a UI to view everything.
 ![wow-remake-2](https://github.com/CodeSteel/WoW-GameplayFeatures/assets/48765827/03ade682-813f-4367-b735-c30f445b20d2)
-
-## Project Setup
-* Unity 2022.3.14f1
-* FishNet 4.1.6
