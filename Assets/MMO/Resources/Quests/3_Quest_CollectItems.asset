@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be43bc652644c49b848766ef0194139, type: 3}
+  m_Name: 3_Quest_CollectItems
+  m_EditorClassIdentifier: 
+  Id: 3_Quest_CollectItems
+  Title: Collect Items
+  Description: Could you collect some rocks for me? I really like how they taste.
+  LevelRequirement: 0
+  CompletedQuestsRequirement: []
+  ExperienceReward: 250
+  GoldReward: 0
+  InventoryItemsReward:
+    m_Keys: []
+    m_Values: 
+  ActionsGivenReward: []
+  QuestStepsObjects:
+  - {fileID: 7836556124628635653, guid: 299bd3230f7f2464b9b7f3cc99148476, type: 3}
+  - {fileID: 3657661505820084060, guid: 7e150d3fc1db8cb43b36013cc82e8aea, type: 3}
+  QuestGiverName: Dave
+  QuestCompleterName: Dave

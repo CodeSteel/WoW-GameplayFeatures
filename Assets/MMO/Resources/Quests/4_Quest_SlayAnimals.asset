@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be43bc652644c49b848766ef0194139, type: 3}
+  m_Name: 4_Quest_SlayAnimals
+  m_EditorClassIdentifier: 
+  Id: 4_Quest_SlayAnimals
+  Title: Slay animals for me?
+  Description: Could you go and kill those animals for me? They are a bother to my
+    crops.
+  LevelRequirement: 0
+  CompletedQuestsRequirement:
+  - {fileID: 11400000, guid: 04ff155b79129d549b60602e6d0b724c, type: 2}
+  - {fileID: 11400000, guid: 2d6dd2ba36699b640a78992e2754c027, type: 2}
+  ExperienceReward: 300
+  GoldReward: 0
+  InventoryItemsReward:
+    m_Keys:
+    - {fileID: 11400000, guid: f29683753a516694ab7b87f4a1a636a9, type: 2}
+    m_Values: 01000000
+  ActionsGivenReward: []
+  QuestStepsObjects:
+  - {fileID: 5609000383114219773, guid: 2dd361b179fcabb48b5511a3d9c08d9e, type: 3}
+  QuestGiverName: Shady Guy
+  QuestCompleterName: Shady Guy

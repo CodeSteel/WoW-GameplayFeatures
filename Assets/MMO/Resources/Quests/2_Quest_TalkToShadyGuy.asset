@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be43bc652644c49b848766ef0194139, type: 3}
+  m_Name: 2_Quest_TalkToShadyGuy
+  m_EditorClassIdentifier: 
+  Id: 2_Quest_TalkToShadyGuy
+  Title: This is weird
+  Description: Hey so, I didn't invite that guy here, can you ask him to leave?
+  LevelRequirement: 0
+  CompletedQuestsRequirement:
+  - {fileID: 11400000, guid: 04ff155b79129d549b60602e6d0b724c, type: 2}
+  ExperienceReward: 50
+  GoldReward: 0
+  InventoryItemsReward:
+    m_Keys: []
+    m_Values: 
+  ActionsGivenReward:
+  - {fileID: 11400000, guid: f9fdecfbe0dca414d9d10eb820e22f98, type: 2}
+  QuestStepsObjects:
+  - {fileID: 3002640354767189093, guid: 6da2580eac6fc494c8269e9af118f971, type: 3}
+  QuestGiverName: Rob
+  QuestCompleterName: Rob
