@@ -5,6 +5,8 @@ World of Warcraft core gameplay features written in C# using the Unity game engi
 * Unity 2022.3.14f1
 * FishNet 4.1.6
 
+[![wakatime](https://wakatime.com/badge/user/2d870dab-4a32-4b61-92e1-e72e79bac1da/project/018ec053-f31e-4ff1-a023-963f1ce36bb2.svg)](https://wakatime.com/badge/user/2d870dab-4a32-4b61-92e1-e72e79bac1da/project/018ec053-f31e-4ff1-a023-963f1ce36bb2)
+
 ## [Action System](Assets/MMO/0-Features/ActionSystem/0-Scripts)
 Networked action system with cooldowns and damage/healing abilities.
 ![wow-remake-1](https://github.com/CodeSteel/WoW-GameplayFeatures/assets/48765827/f0349ae3-42df-4fb5-9f6d-b68fac53c867)
