@@ -6,7 +6,6 @@ using MMO.InteractionSystem;
 using MMO.InventorySystem;
 using SteelBox;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 namespace MMO.Quest
 {

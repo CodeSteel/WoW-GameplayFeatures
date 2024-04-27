@@ -6,7 +6,6 @@ using MMO.ActionSystem;
 using MMO.InventorySystem;
 using SteelBox;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 namespace MMO.Quest
 {
@@ -62,6 +61,8 @@ namespace MMO.Quest
                     _quests.Add(questSo.Id, new Quest(questSo));
                 StartCoroutine(DelayedQuestCheck());
             }
+            
+            Destroy(this);
         }
 
         private IEnumerator DelayedQuestCheck()
@@ -141,6 +142,7 @@ namespace MMO.Quest
             QuestHandlerData.S_QuestStateChange(clientId, quest);
             C_TRpcSetQuestState(Owner, questId, quest.QuestState);
             CheckForAvailableQuests();
+            
         }
 
         [Server]
